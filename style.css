@@ -1,0 +1,95 @@
+html {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: #f4f4f4;
+    width: 60%;
+    margin: 8rem auto;
+    padding-bottom: 1.5rem;
+}
+
+header {
+    background-color: #6943FF;
+    padding: 2em 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+#input-el {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #b295ff;
+    color: white;
+    font-size: 3.625rem;
+    width: 7.31rem;
+    height: 5.18rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+#convert-btn {
+    font-size: 1rem;
+    border-radius: 5px;
+    border-style: solid;
+    color: #3d3d3d;
+    border-color: #b295ff;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+#convert-btn:hover {
+    transform: scale(1.05);
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+
+section {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 2.5rem auto;
+
+}
+
+section h2 {
+    padding-top: 2rem;
+    color: #5A537B;
+    font-size: 2rem;
+}
+
+section p {
+    color: #353535;
+    padding: 0.5rem 0 2.5rem 0;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 500px) {
+    #container {
+        margin: 2rem auto;
+        width: 100%;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    section p {
+        font-size: 1rem;
+        padding: 0 0 1.5rem 0;
+    }
+
+}
