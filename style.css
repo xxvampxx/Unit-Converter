@@ -40,6 +40,10 @@ header h1 {
     border-radius: 8px;
 }
 
+#input-el:active {
+    background-color: transparent;
+}
+
 #convert-btn {
     font-size: 1rem;
     border-radius: 5px;
