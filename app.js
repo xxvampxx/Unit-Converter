@@ -42,7 +42,7 @@ convertBtn.addEventListener("click", function () {
         return outputValue;
     }
     //change p tag content
-    massContent.innerText = `${inputEl.value} pounds = ${convertMassToPounds().toFixed(3)} | ${inputEl.value} pounds = ${convertMassToKilos().toFixed(3)}`;
+    massContent.innerText = `${inputEl.value} kilos = ${convertMassToPounds().toFixed(3)} pounds | ${inputEl.value} pounds = ${convertMassToKilos().toFixed(3)} kilos`;
 
 })
 
